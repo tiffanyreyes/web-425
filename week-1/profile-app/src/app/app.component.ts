@@ -1,7 +1,7 @@
 /**
  * Title: app.component.ts
  * Author: Tiffany Reyes
- * Date: 10 Aug 2023
+ * Date: 12 Aug 2023
  * Description: App component
  */
 
@@ -13,5 +13,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  myWorld = "You are now in Tiffany's world!!";
+  assignment: string = 'Assignment 1.5 - Components';
 }
