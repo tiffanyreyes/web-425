@@ -1,3 +1,9 @@
+/**
+ * Title: app.module.ts
+ * Author: Tiffany Reyes
+ * Date: 14 Aug 2023
+ * Description: app module
+ */
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
