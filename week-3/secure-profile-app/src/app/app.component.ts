@@ -1,7 +1,7 @@
 /**
  * Title: app.component.ts
  * Author: Tiffany Reyes
- * Date: 18 Aug 2023
+ * Date: 26 Aug 2023
  * Description: App component
  */
 
@@ -13,6 +13,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  isLoggedIn: boolean = true;
-  assignment: string = 'Exercise 2.3 - Data Binding';
+  title: string = 'Secure Profile App';
 }

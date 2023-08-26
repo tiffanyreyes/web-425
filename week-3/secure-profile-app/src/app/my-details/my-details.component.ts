@@ -1,12 +1,13 @@
 /**
  * Title: my-details.component.ts
  * Author: Tiffany Reyes
- * Date: 18 Aug 2023
+ * Date: 26 Aug 2023
  * Description: my-details component
  */
 
 import { Component, OnInit } from '@angular/core';
 
+// exporting person class
 export default class Person {
   fullName: string;
   favoriteFood: string;
@@ -15,6 +16,7 @@ export default class Person {
     "#Typescript", "#2020", "#CodingWithAngular", "#ngOmaha"
   ];
 
+  // building person class content
   constructor(fullName: string, favoriteFood: string, favoriteColor: string) {
     this.fullName = fullName;
     this.favoriteFood = favoriteFood;
@@ -32,8 +34,10 @@ export default class Person {
 })
 export class MyDetailsComponent implements OnInit {
 
+  // declaring variable
   myProfile: Person;
 
+  // creating new person
   constructor() {
     this.myProfile = new Person("Tiffany Reyes", "Pasta", "Blue")
     this.myProfile.toString();

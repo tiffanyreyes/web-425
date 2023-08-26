@@ -1,7 +1,7 @@
 /**
  * Title: my-image.component.ts
  * Author: Tiffany Reyes
- * Date: 18 Aug 2023
+ * Date: 26 Aug 2023
  * Description: my-image component
  */
 
