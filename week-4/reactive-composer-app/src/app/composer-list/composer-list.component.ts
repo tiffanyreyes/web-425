@@ -22,7 +22,7 @@ export class ComposerListComponent implements OnInit {
   composers: Array<IComposer>;
   txtSearchControl = new FormControl('');
 
-  // creating composer array
+  // creating composer array with search function
   constructor(private composerService: ComposerService) {
     this.composers = this.composerService.getComposers();
 
