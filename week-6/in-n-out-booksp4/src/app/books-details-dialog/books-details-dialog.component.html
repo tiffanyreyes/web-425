@@ -1,0 +1,16 @@
+<mat-card>
+  <mat-card-title class="blue">
+    {{ book.title }}
+  </mat-card-title>
+  <mat-card-content>
+    <div fxLayout="column">
+      <p> {{ book.isbn }} </p>
+      <p> {{ book.description }} </p>
+      <p> {{ book.numOfPages }} </p>
+      <p> {{ book.authors }} </p>
+    </div>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button color="accent" matDialogClose="confirm">OK</button>
+  </mat-card-actions>
+</mat-card>
